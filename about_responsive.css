@@ -1,0 +1,238 @@
+@media (max-width: 500px) {
+  #about {
+    padding: 1rem;
+    padding-bottom: 0;
+  }
+
+  .about-title {
+    font-size: 28px;
+    margin-top: 0px;
+    font-weight: 600;
+  }
+  .about-container {
+    display: flex;
+    align-items: center;
+    row-gap: 1rem;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+  .about-text {
+    width: 90%;
+    padding: 1rem;
+    border-left: 3px solid rgb(237, 173, 23);
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: justify;
+  }
+  .about-education {
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px;
+    padding: 1rem;
+    width: 90%;
+  }
+
+  .education-title {
+    font-size: 26px;
+  }
+  .education-degree {
+    font-size: 17px;
+  }
+  .education-university {
+    font-size: 15px;
+  }
+  .education-year {
+    font-size: 13px;
+  }
+}
+@media (min-width: 400px) and (max-width: 500px) {
+  #about {
+    padding: 1rem;
+    padding-bottom: 0;
+  }
+
+  .about-title {
+    font-size: 28px;
+    margin-top: 0px;
+    font-weight: 600;
+  }
+  .about-container {
+    display: flex;
+    align-items: center;
+    row-gap: 1rem;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+  .about-text {
+    width: 90%;
+    padding: 1rem;
+    border-left: 3px solid rgb(237, 173, 23);
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: justify;
+  }
+  .about-education {
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px;
+    padding: 1rem;
+    width: 90%;
+  }
+
+  .education-title {
+    font-size: 26px;
+  }
+  .education-degree {
+    font-size: 17px;
+  }
+  .education-university {
+    font-size: 15px;
+  }
+  .education-year {
+    font-size: 13px;
+  }
+}
+@media (min-width: 500px) and (max-width: 730px) {
+  #about {
+    padding: 1.5rem;
+    padding-bottom: 0;
+  }
+
+  .about-title {
+    font-size: 30px;
+    margin-top: 5px;
+    font-weight: 600;
+  }
+  .about-container {
+    display: flex;
+    align-items: center;
+    row-gap: 1rem;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+  .about-text {
+    width: 90%;
+    padding: 1rem;
+    border-left: 3px solid rgb(237, 173, 23);
+    border-radius: 5px;
+    font-size: 17px;
+    text-align: justify;
+  }
+  .about-education {
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px;
+    padding: 1rem;
+    width: 90%;
+  }
+
+  .education-title {
+    font-size: 27px;
+  }
+  .education-degree {
+    font-size: 18px;
+  }
+  .education-university {
+    font-size: 15px;
+  }
+  .education-year {
+    font-size: 14px;
+  }
+}
+@media (min-width: 730px) and (max-width: 1200px) {
+  #about {
+    padding: 2rem;
+    padding-bottom: 0;
+  }
+
+  .about-title {
+    font-size: 35px;
+    margin-top: 5px;
+    font-weight: 600;
+  }
+  .about-container {
+    display: flex;
+    margin-top: 1rem;
+    gap: 3%;
+  }
+  .about-text {
+    width: 48%;
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: justify;
+  }
+  .about-education {
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px;
+    padding: 1rem;
+    width: 48%;
+  }
+
+  .education-title {
+    font-size: 23px;
+    font-weight: 500;
+    margin: 2px;
+  }
+  .education-degree {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 2px;
+  }
+  .education-university {
+    font-size: 15px;
+    margin: 2px;
+  }
+  .education-year {
+    font-size: 14px;
+    margin: 2px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #about {
+    padding: 2rem;
+    padding-bottom: 0;
+  }
+
+  .about-title {
+    font-size: 35px;
+    margin-top: 5px;
+    font-weight: 600;
+  }
+  .about-container {
+    display: flex;
+    margin-top: 1rem;
+    gap: 2%;
+  }
+  .about-text {
+    width: 49%;
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: 17px;
+    text-align: justify;
+  }
+  .about-education {
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px;
+    padding: 1rem;
+    width: 49%;
+  }
+
+  .education-title {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 2px;
+  }
+  .education-degree {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 2px;
+  }
+  .education-university {
+    font-size: 17px;
+    margin: 2px;
+  }
+  .education-year {
+    font-size: 14px;
+    margin: 2px;
+  }
+}

@@ -1,0 +1,99 @@
+@media (max-width: 500px) {
+  #project {
+    padding: 1.5rem;
+  }
+  .project-title {
+    font-size: 24px;
+  }
+
+  .project-box {
+    width: 100%;
+    padding: 0.4rem;
+  }
+  .project-name {
+    font-size: 18px;
+  }
+  .project-stack {
+    font-size: 15px;
+  }
+  .project-view,
+  .project-git {
+    font-size: 14px;
+    padding: 9px 1rem;
+  }
+}
+@media (min-width: 400px) and (max-width: 500px) {
+  #project {
+    padding: 1.5rem;
+  }
+  .project-title {
+    font-size: 25px;
+  }
+
+  .project-box {
+    width: 100%;
+    padding: 1rem;
+  }
+  .project-name {
+    font-size: 19px;
+  }
+  .project-stack {
+    font-size: 16px;
+  }
+  .project-view,
+  .project-git {
+    font-size: 15px;
+    padding: 9px 1rem;
+  }
+}
+@media (min-width: 500px) and (max-width: 650px) {
+  .project-title {
+    font-size: 26px;
+  }
+
+  .project-container {
+    row-gap: 1rem;
+  }
+
+  .project-box {
+    width: 100%;
+    padding: 1rem;
+  }
+  .project-name {
+    font-size: 20px;
+  }
+  .project-stack {
+    font-size: 17px;
+  }
+  .project-view,
+  .project-git {
+    font-size: 16px;
+    padding: 9px 1rem;
+  }
+}
+@media (min-width: 650px) and (max-width: 950px) {
+  .project-title {
+    font-size: 27px;
+  }
+
+  .project-container {
+    column-gap: 2%;
+    row-gap: 1rem;
+  }
+
+  .project-box {
+    width: 49%;
+    padding: 1rem;
+  }
+  .project-name {
+    font-size: 18px;
+  }
+  .project-stack {
+    font-size: 15px;
+  }
+  .project-view,
+  .project-git {
+    font-size: 16px;
+    padding: 10px 1rem;
+  }
+}

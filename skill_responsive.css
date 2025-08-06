@@ -1,0 +1,48 @@
+@media (max-width: 400px) {
+  .skill-title {
+    font-size: 24px;
+  }
+
+  .skill-container {
+    width: 95%;
+  }
+  .skill-text {
+    font-size: 16px;
+  }
+}
+@media (min-width: 400px) and (max-width: 600px) {
+  .skill-title {
+    font-size: 25px;
+  }
+
+  .skill-container {
+    width: 90%;
+  }
+  .skill-text {
+    font-size: 16px;
+  }
+}
+@media (min-width: 600px) and (max-width: 1200px) {
+  .skill-title {
+    font-size: 26px;
+  }
+
+  .skill-container {
+    width: 85%;
+  }
+  .skill-text {
+    font-size: 16px;
+  }
+}
+@media (min-width: 1200px) {
+  .skill-title {
+    font-size: 32px;
+  }
+
+  .skill-container {
+    width: 70%;
+  }
+  .skill-text {
+    font-size: 16px;
+  }
+}
