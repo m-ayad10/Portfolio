@@ -1,0 +1,48 @@
+/* app.css - FIXED DARK MODE */
+@import "tailwindcss";
+
+/* Configure dark mode properly */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Base styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: white;
+  color: #111827;
+  transition: background-color 0.3s ease;
+}
+
+/* Dark mode styles - USING CLASS-BASED APPROACH */
+.dark {
+  color-scheme: dark;
+}
+
+.dark body {
+  background-color: #111827;
+  color: #f3f4f6;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: #1f2937;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #4b5563;
+}
