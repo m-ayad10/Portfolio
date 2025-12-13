@@ -8,7 +8,7 @@ const SkillsSectionSimple: React.FC = () => {
     { icon: FiMonitor, title: 'Frontend', skills: ['React.js', 'Tailwind CSS', 'Bootstrap'] },
     { icon: FiServer, title: 'Backend', skills: ['Node.js', 'Express.js', 'WebSocket'] },
     { icon: FiDatabase, title: 'Database', skills: ['MongoDB', 'Firestore', 'PostgreSQL', 'Redis'] },
-    { icon: FiCloud, title: 'Cloud & DevOps', skills: ['AWS S3', 'Docker'] },
+    { icon: FiCloud, title: 'Cloud & DevOps', skills: ['AWS S3', 'Docker','CI CD'] },
     { icon: FiTool, title: 'Tools', skills: ['Git', 'GitHub', 'Postman', 'VS Code', 'JWT', 'Axios', 'Redux'] },
   ];
 
