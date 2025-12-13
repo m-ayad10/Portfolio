@@ -1,6 +1,6 @@
 // App.tsx
 import { useEffect } from 'react';
-import './app.css'; // Make sure this is imported
+import './App.css'; // Make sure this is imported
 import Navbar from './Components/Navbar/Navbar';
 import HeroSection from './Components/HeroSection/HeroSection';
 import AboutSection from './Components/About/About';
