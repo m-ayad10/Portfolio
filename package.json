@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.17",
+    "@tsparticles/react": "^3.0.0",
+    "@tsparticles/slim": "^3.9.1",
     "aos": "^2.3.4",
     "framer-motion": "^12.23.26",
     "gsap": "^3.14.2",
