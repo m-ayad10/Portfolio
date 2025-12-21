@@ -27,19 +27,12 @@ function App() {
  
 <ParticlesBackground
   colors={['#00ffff', '#ff00ff', '#ffaa00']}
-  size={12}
-  countDesktop={100}
-  countTablet={60}
-  countMobile={40}
+  size={4}
+  countDesktop={40}
+  countTablet={30}
+  countMobile={30}
 />;
       <SmoothCursor />
-      <SmokeyCursor
-        simulationResolution={64}
-        dyeResolution={512}
-        densityDissipation={5}
-        velocityDissipation={3}
-        enableShading={false}
-      />
       <Navbar />
       <HeroSection />
       <AboutSection />
