@@ -8,7 +8,6 @@ import SkillsSectionSimple from "./Components/SkillSection/SkillSection";
 import ProjectsSection from "./Components/ProjectSection/ProjectSection";
 import ContactSection from "./Components/ContactSection/ContactSection";
 import SmoothCursor from "./Components/lightswind/smooth-cursor";
-import SmokeyCursor from "./Components/lightswind/smokey-cursor";
 import ParticlesBackground from "./Components/lightswind/particles-background";
 
 function App() {
