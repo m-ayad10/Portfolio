@@ -12,11 +12,10 @@ const Navbar: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
   const [darkMode, setDarkMode] = useState(() => {
-    // Check local storage or system preference
+    // Check local storage only; default to light mode
     if (typeof window !== 'undefined') {
       const saved = localStorage.getItem('darkMode');
       if (saved !== null) return JSON.parse(saved);
-      return window.matchMedia('(prefers-color-scheme: dark)').matches;
     }
     return false;
   });
@@ -116,8 +115,8 @@ const Navbar: React.FC = () => {
                 }}
                 className="flex items-center gap-2 group"
               >
-                <div className="w-10 h-10 rounded-full bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center group-hover:rotate-12 transition-transform duration-300">
-                  <span className="text-gray-900 font-bold text-lg">M</span>
+                <div className="w-10 h-10 rounded-full bg-gradient-to-br from-[#2C6E6F] to-[#1e5253] flex items-center justify-center group-hover:rotate-12 transition-transform duration-300">
+                  <span className="text-white font-bold text-lg">M</span>
                 </div>
                 <span className="text-xl font-bold text-gray-900 dark:text-white">
                   Ma.
@@ -137,8 +136,8 @@ const Navbar: React.FC = () => {
                   }}
                   className={`px-4 py-2 rounded-lg transition-colors duration-300 ${
                     activeSection === item.id
-                      ? 'text-amber-500 dark:text-amber-400 font-medium bg-amber-50 dark:bg-amber-900/20'
-                      : 'text-gray-700 dark:text-gray-300 hover:text-amber-500 dark:hover:text-amber-400'
+                      ? 'text-[#2C6E6F] dark:text-[#4a9fa0] font-medium'
+                      : 'text-gray-700 dark:text-gray-300 hover:text-[#2C6E6F] dark:hover:text-[#4a9fa0]'
                   }`}
                 >
                   {item.label}
@@ -185,7 +184,7 @@ const Navbar: React.FC = () => {
                   }}
                   className={`px-4 py-3 rounded-lg text-lg transition-colors duration-300 ${
                     activeSection === item.id
-                      ? 'text-amber-500 dark:text-amber-400 bg-amber-50 dark:bg-amber-900/20 font-medium'
+                      ? 'text-[#2C6E6F] dark:text-[#4a9fa0] font-medium'
                       : 'text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800'
                   }`}
                 >

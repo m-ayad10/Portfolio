@@ -1,0 +1,55 @@
+MOHAMMED AYAD    
+Full Stack Developer  
+ 9074731468| ayadmohammed403@gmail.com| LinkedIn | GitHub | Portfolio | Leetcode    
+  
+PROFILE SUMMARY    
+   
+MERN Stack Developer with hands-on experience building scalable full-stack web applications using React.js, Node.js, Express.js, and MongoDB. Proficient in REST API development, authentication systems, and real-time communication using WebSocket/WebRTC. Experienced with cloud deployment on AWS and CI/CD pipelines. Strong focus on writing clean, maintainable code and delivering high-performance applications.  
+SKILLS    
+   
+Languages: JavaScript, TypeScript, HTML, CSS,  
+Frontend: React.js, Redux Toolkit, Tailwind CSS, Bootstrap    
+Backend: Node.js, Express.js, REST APIs, WebSocket, WebRTC   
+Database: MongoDB, PostgreSQL, Firestore, Redis  
+Cloud & DevOps: AWS (S3, EC2, CloudFront, ACM), Docker, CI/CD, AWS CodePipeline, CodeBuild, Nginx, Azure VM.
+Tools: Git, GitHub, Postman, JWT, Axios, Prisma, Cloudinary, Figma, Pm2.
+PROJECTS    
+   
+2D Metaverse Platform  Live Code
+Developing a real-time 2D virtual environment platform inspired by Gather Town with room-based interactions.  
+Implemented real-time user synchronization and presence using WebSocket.
+Built interactive 2D environments with Phaser.js and Tiled maps, including collision detection and tile-based navigation.
+Integrated WebRTC for room-based audio/video communication between users.
+Implemented Redis Pub/Sub to publish and subscribe to space events, delivering real-time WebSocket notifications for join requests, approvals, and access changes.
+Designed a scalable microservice backend with Node.js, TypeScript, Prisma ORM, Redis, and OAuth.
+Deployed on Azure VM with Nginx reverse proxy, SSL via Certbot, and automated CI/CD pipelines using GitHub Actions with self-hosted runners.
+Structured as a monorepo using Turborepo for shared packages, consistent tooling, and scalable code organization.  
+Tech Stack: MERN, TypeScript, WebSocket, WebRTC, Redis, Prisma, Redis Pub/Sub, Redux Toolkit,  Phaser, Tailwind CSS , OAuth, Turborepo , Azure, Nginx, CI/CD (GitHub Actions), Certbot, Pm2
+  
+Learning Management System (LMS)  Live Code
+Built a full-stack LMS platform supporting Student, Instructor, and Admin roles.  
+Developed secure authentication with OTP verification and JWT-based authorization.  
+Implemented features like course enrolment, Wishlist, cart, and Razorpay payments.  
+Designed dashboards with analytics and revenue tracking (70% instructor / 30% platform split).  
+Integrated AWS services for deployment and frontend hosting.    
+Tech Stack: MERN, TypeScript, Redux Toolkit, Tailwind CSS, Razorpay, AWS (EC2, S3, CloudFront, 
+ACM, CodePipeline, CodeBuild), CI CD Pipeline (CodePipeline, CodeBuild), Cloudinary, Pm2
+    
+E-commerce Fashion Website  Live Code
+Developed a responsive e-commerce fashion website with React and Firebase, including product browsing, cart management, Wishlist, secure payment options, and admin features for product and order management.    
+Tech Stack: React, HTML, CSS, Bootstrap, JavaScript, Firebase (Authentication, Firestore, Storage), REST API    
+Secure File Handling Platform Live Code
+Developed a scalable, file management platform using Amazon S3. Built with a React.js frontend and Node.js backend with JWT-based authentication. Features include secure file upload, preview, download, metadata storage, and a responsive user dashboard.    
+Tech Stack: React, Node.js, Express, Tailwind CSS, MongoDB, AWS S3, JWT    
+EXPERIENCE    
+   
+MERN Stack developer Intern    
+ Bridgeon Solution Aug 2025 - present   
+Gained hands-on experience with React, TypeScript, Redux Toolkit, Node.js, Express.js, MongoDB, PostgreSQL, Prisma, WebSocket, WebRTC, and REST API development.  
+Worked on building full-stack features, debugging issues, writing reusable components, and improving backend API performance.    
+Collaborated with the team using Git/GitHub, participated in code reviews, and improved communication, teamwork, and problem-solving skills.    
+Learned fundamentals of deploying and maintaining applications, schema design, authentication workflows, and modern development best practices.    
+EDUCATION    
+   
+Bachelor of Computer Application       
+ Yenepoya University 2022 - 2025   

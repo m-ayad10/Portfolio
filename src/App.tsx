@@ -8,7 +8,6 @@ import SkillsSectionSimple from "./Components/SkillSection/SkillSection";
 import ProjectsSection from "./Components/ProjectSection/ProjectSection";
 import ContactSection from "./Components/ContactSection/ContactSection";
 import SmoothCursor from "./Components/lightswind/smooth-cursor";
-import ParticlesBackground from "./Components/lightswind/particles-background";
 
 function App() {
   // Initialize AOS if you want animations
@@ -22,15 +21,7 @@ function App() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-white dark:bg-gray-900">
- 
-<ParticlesBackground
-  colors={['#00ffff', '#ff00ff', '#ffaa00']}
-  size={4}
-  countDesktop={40}
-  countTablet={30}
-  countMobile={30}
-/>;
+      <div className="min-h-screen bg-[#f9fafb] dark:bg-gray-900">
       <SmoothCursor />
       <Navbar />
       <HeroSection />

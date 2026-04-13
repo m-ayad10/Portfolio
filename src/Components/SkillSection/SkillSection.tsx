@@ -1,61 +1,50 @@
-// components/SkillsSectionSimple.tsx
 import React from 'react';
-import { FiCode, FiMonitor, FiServer, FiDatabase, FiCloud, FiTool } from 'react-icons/fi';
 
 const SkillsSectionSimple: React.FC = () => {
   const skillCategories = [
-    { icon: FiCode, title: 'Languages', skills: ['JavaScript', 'HTML', 'CSS', 'TypeScript'] },
-    { icon: FiMonitor, title: 'Frontend', skills: ['React.js', 'Tailwind CSS', 'Bootstrap'] },
-    { icon: FiServer, title: 'Backend', skills: ['Node.js', 'Express.js', 'WebSocket'] },
-    { icon: FiDatabase, title: 'Database', skills: ['MongoDB', 'Firestore', 'PostgreSQL', 'Redis'] },
-    { icon: FiCloud, title: 'Cloud & DevOps', skills: ['AWS S3', 'Docker','CI CD'] },
-    { icon: FiTool, title: 'Tools', skills: ['Git', 'GitHub', 'Postman', 'VS Code', 'JWT', 'Axios', 'Redux'] },
+    { title: 'Languages',     skills: ['JavaScript', 'TypeScript', 'HTML', 'CSS'] },
+    { title: 'Frontend',      skills: ['React.js', 'Redux Toolkit', 'Tailwind CSS', 'Bootstrap'] },
+    { title: 'Backend',       skills: ['Node.js', 'Express.js', 'REST APIs', 'WebSocket', 'WebRTC'] },
+    { title: 'Database',      skills: ['MongoDB', 'PostgreSQL', 'Redis', 'Firestore'] },
+    { title: 'Cloud & DevOps', skills: ['AWS S3', 'EC2', 'CloudFront', 'Docker', 'Nginx', 'CI/CD', 'Azure VM'] },
+    { title: 'Tools',         skills: ['Git', 'GitHub', 'Postman', 'JWT', 'Axios', 'Prisma', 'Cloudinary', 'Figma', 'Pm2'] },
   ];
 
   return (
-    <section id="skills" className="py-5 px-4 sm:px-6 lg:px-8">
+    <section id="skills" className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
+
         {/* Header */}
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-3">
+        <div className="mb-16">
+          <span className="text-sm font-medium text-[#2C6E6F] dark:text-[#4a9fa0] uppercase tracking-widest">
             Skills
+          </span>
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mt-2">
+            Technologies & Tools
           </h2>
-          <p className="text-gray-600 dark:text-gray-400">
-            Technologies I work with
-          </p>
         </div>
 
-        {/* Grid Layout */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {skillCategories.map((category) => {
-            const Icon = category.icon;
-            return (
-              <div key={category.title} className="space-y-4">
-                {/* Category Title */}
-                <div className="flex items-center gap-3 pb-3 border-b border-gray-200 dark:border-gray-700">
-                  <div className="p-2 rounded-md bg-gray-100 dark:bg-gray-800">
-                    <Icon className="w-5 h-5 text-gray-600 dark:text-gray-400" />
-                  </div>
-                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                    {category.title}
-                  </h3>
-                </div>
-
-                {/* Skills List */}
-                <div className="flex flex-wrap gap-2">
-                  {category.skills.map((skill) => (
-                    <span
-                      key={skill}
-                      className="px-3 py-1.5 rounded-full text-sm bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
-                    >
-                      {skill}
-                    </span>
-                  ))}
-                </div>
+        {/* Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          {skillCategories.map((category) => (
+            <div key={category.title}>
+              <h3 className="text-xs font-semibold text-[#2C6E6F] dark:text-[#4a9fa0] uppercase tracking-widest mb-4">
+                {category.title}
+              </h3>
+              <div className="flex flex-wrap gap-2">
+                {category.skills.map((skill) => (
+                  <span
+                    key={skill}
+                    className="px-3 py-1.5 rounded-full text-sm border border-gray-200 dark:border-gray-700 text-gray-700 dark:text-gray-300 hover:border-[#2C6E6F] hover:text-[#2C6E6F] dark:hover:border-[#4a9fa0] dark:hover:text-[#4a9fa0] transition-colors duration-200"
+                  >
+                    {skill}
+                  </span>
+                ))}
               </div>
-            );
-          })}
+            </div>
+          ))}
         </div>
+
       </div>
     </section>
   );
