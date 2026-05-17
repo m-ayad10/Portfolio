@@ -7,7 +7,7 @@ import image2 from '../../assets/Screenshot 2025-08-05 223721.png';
 import image3 from '../../assets/Screenshot 2025-12-01 194611.png';
 import image4 from '../../assets/WhatsApp Image 2025-08-05 at 22.45.00_645f3acd.jpg';
 import image5 from '../../assets/WhatsApp Image 2025-08-05 at 22.45.07_ad58866a.jpg';
-import image6 from "../../assets/Screenshot 2026-04-13 at 7.50.27 AM.png"
+import image6 from "../../assets/image.png"
 
 interface Project {
   id: number;
@@ -23,11 +23,11 @@ interface Project {
 const ProjectsSection: React.FC = () => {
   const featured: Project = {
     id: 0,
-    title: 'Townify — 2D Metaverse Platform',
+    title: 'Townify — Real-Time 2D Metaverse Platform',
     thumbnail: image6,
     description:
-      'Real-time 2D virtual environment inspired by Gather Town. Features room-based WebRTC audio/video communication, WebSocket presence sync, Phaser.js interactive maps with collision detection, Redis Pub/Sub event system, scalable backend with Node.js and Prisma ORM, and a Turborepo monorepo — deployed on Azure VM with Nginx and automated CI/CD pipelines.',
-    techStack: ['TypeScript', 'Node.js', 'React.js', 'WebSocket', 'WebRTC', 'Redis', 'Phaser.js', 'Prisma', 'Turborepo', 'Azure', 'Nginx', 'CI/CD'],
+      'Real-time 2D metaverse platform with WebSocket presence sync, WebRTC audio/video (SFU), Phaser.js interactive maps, and Redis Pub/Sub event-driven backend. Production-deployed on AWS EKS with Kubernetes, Argo CD GitOps, and fully automated CI/CD pipelines.',
+    techStack: ['MERN', 'TypeScript', 'WebSocket', 'WebRTC', 'Redis Pub/Sub', 'Prisma', 'Phaser.js', 'Redux Toolkit', 'Tailwind CSS', 'Turborepo', 'Docker', 'Kubernetes', 'AWS EKS', 'ECR', 'ECS', 'Argo CD', 'GitOps', 'GitHub Actions', 'Nginx Ingress', 'ALB', 'Azure VM', 'PM2'],
     liveUrl: 'https://townify.ayadweb.online',
     codeUrl: 'https://github.com/m-ayad10/Townify',
   };
@@ -35,10 +35,10 @@ const ProjectsSection: React.FC = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: 'Learning Management System',
+      title: 'Learning Management System (LMS)',
       thumbnail: image3,
-      description: 'Full-stack LMS with Student, Instructor, and Admin roles. OTP auth, Razorpay payments, course enrolment, and revenue analytics with AWS deployment.',
-      techStack: ['React', 'Node.js', 'MongoDB', 'TypeScript', 'Redux', 'Razorpay', 'AWS'],
+      description: 'Production-grade LMS supporting Student, Instructor, and Admin workflows with integrated payments. Secure OTP auth, JWT authorization, course enrollment, cart, wishlist, Razorpay payments, and analytics dashboards with revenue tracking. Containerized with Docker, CI/CD via GitHub Actions & AWS CodePipeline, deployed on ECS/ECR with ALB, ASG, and S3 + CloudFront for global delivery.',
+      techStack: ['MERN', 'TypeScript', 'Redux Toolkit', 'Tailwind CSS', 'Razorpay', 'AWS (EC2, S3, CloudFront, ECS, ECR, ASG)', 'Docker', 'CI/CD', 'Cloudinary', 'PM2'],
       liveUrl: 'https://lms.frontend.ayadweb.online',
       codeUrl: 'https://github.com/m-ayad10/LMS-Backend.git',
     },
@@ -134,7 +134,7 @@ const ProjectsSection: React.FC = () => {
             <div className="p-8 lg:p-10 flex flex-col justify-between gap-6">
               <div>
                 <h3 className="text-2xl lg:text-3xl font-bold text-gray-900 dark:text-white mb-4 leading-tight">
-                  Townify — 2D Metaverse Platform
+                  Townify — Real-Time 2D Metaverse Platform
                 </h3>
                 <p className="text-gray-500 dark:text-gray-400 leading-relaxed mb-6">
                   {featured.description}

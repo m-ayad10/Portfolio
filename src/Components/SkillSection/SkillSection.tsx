@@ -4,9 +4,9 @@ const SkillsSectionSimple: React.FC = () => {
   const skillCategories = [
     { title: 'Languages',     skills: ['JavaScript', 'TypeScript', 'HTML', 'CSS'] },
     { title: 'Frontend',      skills: ['React.js', 'Redux Toolkit', 'Tailwind CSS', 'Bootstrap'] },
-    { title: 'Backend',       skills: ['Node.js', 'Express.js', 'REST APIs', 'WebSocket', 'WebRTC'] },
+    { title: 'Backend',       skills: ['Node.js', 'Express.js', 'REST APIs', 'WebSocket', 'WebRTC', 'Redis Pub/Sub'] },
     { title: 'Database',      skills: ['MongoDB', 'PostgreSQL', 'Redis', 'Firestore'] },
-    { title: 'Cloud & DevOps', skills: ['AWS S3', 'EC2', 'CloudFront', 'Docker', 'Nginx', 'CI/CD', 'Azure VM'] },
+    { title: 'Cloud & DevOps', skills: ['AWS EKS', 'AWS ECS', 'AWS ECR', 'AWS EC2', 'AWS S3', 'AWS CloudFront', 'AWS ACM', 'AWS ELB/ALB', 'AWS ASG', 'AWS IAM', 'AWS VPC', 'Kubernetes', 'Docker', 'Docker Compose', 'GitOps', 'Argo CD', 'Nginx Ingress Controller', 'CI/CD (GitHub Actions)', 'Azure VM', 'Linux', 'PM2'] },
     { title: 'Tools',         skills: ['Git', 'GitHub', 'Postman', 'JWT', 'Axios', 'Prisma', 'Cloudinary', 'Figma', 'Pm2'] },
   ];
 

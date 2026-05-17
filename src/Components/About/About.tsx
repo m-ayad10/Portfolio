@@ -31,11 +31,13 @@ const AboutSection: React.FC = () => {
             {/* About */}
             <div data-aos="fade-up">
               <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
-                MERN Stack Developer with hands-on experience building scalable
-                full-stack web applications using React.js, Node.js, Express.js,
-                and MongoDB. Proficient in REST API development, authentication
-                systems, and real-time communication using WebSocket/WebRTC.
-                Experienced with cloud deployment on AWS and CI/CD pipelines.
+                Full Stack Developer specializing in MERN stack, cloud-native
+                architectures, and scalable distributed systems. Experienced in
+                building real-time applications with WebSocket/WebRTC and
+                deploying production-grade infrastructures on AWS using Docker,
+                Kubernetes (EKS), GitOps, Argo CD, and CI/CD pipelines. Strong
+                background in scalable backend engineering, DevOps automation,
+                and high-availability system design.
               </p>
             </div>
 
@@ -62,9 +64,10 @@ const AboutSection: React.FC = () => {
                     Bridgeon Solutions
                   </p>
                   <ul className="space-y-1.5 text-sm text-gray-600 dark:text-gray-400 leading-relaxed list-disc list-inside">
-                    <li>Built full-stack features with React, Node.js, MongoDB, TypeScript, WebSocket, and WebRTC.</li>
-                    <li>Wrote reusable components, optimized backend APIs, and participated in code reviews.</li>
-                    <li>Practiced schema design, auth workflows, and CI/CD deployment via Git/GitHub.</li>
+                    <li>Gained hands-on experience with React, TypeScript, Redux Toolkit, Node.js, Express.js, MongoDB, PostgreSQL, Prisma, WebSocket, WebRTC, and REST API development.</li>
+                    <li>Built full-stack features, wrote reusable components, debugged issues, and improved backend API performance.</li>
+                    <li>Collaborated using Git/GitHub, participated in code reviews, and improved communication, teamwork, and problem-solving skills.</li>
+                    <li>Learned deployment fundamentals, schema design, authentication workflows, and modern development best practices.</li>
                   </ul>
                 </div>
 
